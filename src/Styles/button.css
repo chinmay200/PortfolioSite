@@ -1,13 +1,46 @@
 .btn{
+    text-align: center;
     text-decoration: none;
     color: rgb(13, 13, 13);
-    font-size: 1.6em;
+    font-size: 1.6rem;
+    position: relative;
+    padding: 5px 10px;
+    border: 3px solid #000;
+    transition: all 0.7s ease;
 }
 
-.btn::after , .btn::before{
-    border: 5px solid black;
+.btn::after{
     content: "";
-    width: calc(100% - 10px);
-    height:  calc(100% - 10px)%;
+    border: 3px solid #6EE5C2;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.5s ease;
 }
+.btn::before{
+    content: "";
+    border: 3px solid #00FFF0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+.btn:hover{
+    border: none;
+}
+
+.btn:hover::after{
+    transform: translate(-5px , -5px);
+}
+
+.btn:hover::before{
+    transform: translate(5px , 5px);
+}
+
