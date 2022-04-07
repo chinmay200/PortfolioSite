@@ -1,5 +1,13 @@
 .btn{
     text-decoration: none;
     color: rgb(13, 13, 13);
-    padding: 20px;
+    font-size: 1.6em;
+}
+
+.btn::after , .btn::before{
+    border: 5px solid black;
+    content: "";
+    width: calc(100% - 10px);
+    height:  calc(100% - 10px)%;
+    position: absolute;
 }
