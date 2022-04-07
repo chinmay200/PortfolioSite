@@ -7,9 +7,6 @@
 
 body{
   font-family: 'Space Grotesk', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background-image: url(Styles/bgup.svg),url(Styles/bgdown.svg);
     background-position: top,bottom;

@@ -18,7 +18,7 @@
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 .btn::before{
     content: "";
@@ -37,10 +37,10 @@
 }
 
 .btn:hover::after{
-    transform: translate(-5px , -5px);
+    transform: translate(-3px , -5px);
 }
 
 .btn:hover::before{
-    transform: translate(5px , 5px);
+    transform: translate(5px , 3px);
 }
 

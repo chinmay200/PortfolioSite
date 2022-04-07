@@ -1,9 +1,11 @@
 import './App.css';
-import Buttons from './components/Buttons';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Buttons text= "Home"/>
+    <>
+      <Navbar/>
+    </>
   );
 }
 
