@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 25vh;
     justify-content: center;
@@ -9,5 +10,17 @@
 .navigationitems{
     display: flex;
     width: 70vw;
+}
+
+.logo{
+    width: 10vw;
+    justify-content: center;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
 }
 

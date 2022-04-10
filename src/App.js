@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Buttons text="Home"></Buttons> */}
     </>
   );
 }

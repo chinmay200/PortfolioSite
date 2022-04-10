@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="navigationitems">
 
         <div className="logo">
-          <img src={logo} alt="" srcset="" style={{ "width": "3.4em", "height": "3.4em" }} />
+          <img src={logo} alt="" srcset="" style={{ "width": "3.2em", "height": "3.2em" }} />
         </div>
 
         <div className="navlinks">
@@ -18,8 +18,12 @@ export default function Navbar() {
           <Buttons text = "Contact me" />
         </div>
 
+        <div className="themetoggle">
+          <img src={logo} alt="" srcset="" style={{ "width": "3.4em", "height": "3.4em" }} className="toggle"></img>
+        </div>
+
       </div>
-      <div className="underline"></div>
+      <div className="underline" style={{"width":"70vw"}}></div>
     </div>
   )
 }
