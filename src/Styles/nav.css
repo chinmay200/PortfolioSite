@@ -1,11 +1,13 @@
 .navbar{
     display: flex;
     width: 100vw;
-    height: 10vh;
+    height: 25vh;
     justify-content: center;
     align-items: center;
 }
 
 .navigationitems{
+    display: flex;
     width: 70vw;
 }
+
