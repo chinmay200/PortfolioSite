@@ -1,5 +1,11 @@
+*{
+    outline: none;
+    user-select: none;
+}
+
 .underline{
     height: 5px;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(51, 51, 51);
 }
+
