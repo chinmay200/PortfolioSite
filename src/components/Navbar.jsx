@@ -1,5 +1,6 @@
 import '../Styles/nav.css'
 import logo from '../Styles/owl.png'
+import toggle from '../Styles/day-and-night.png'
 import Buttons from './Buttons';
 import React from 'react'
 
@@ -19,7 +20,7 @@ export default function Navbar() {
         </div>
 
         <div className="themetoggle">
-          <img src={logo} alt="" srcset="" style={{ "width": "3.4em", "height": "3.4em" }} className="toggle"></img>
+          <img src={toggle} alt="" srcset="" style={{ "width": "3em", "height": "3em" }} className="toggle"></img>
         </div>
 
       </div>
