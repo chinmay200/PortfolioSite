@@ -32,14 +32,15 @@
 /* MOBILE NAVIGATION MENU ICON*/
 
 .mobile-nav {
-  display: flex;
-  cursor: pointer;
+  position: absolute;
   display: none;
+  width:3em;
+    top: 3.3vh;
+    right: 3em;
 }
 
 .mobile-nav:hover > .line1 {
   transform: rotate(-90deg);
-  /* height: 50px; */
 }
 
 .mobile-nav:hover > .line2 {
@@ -48,7 +49,7 @@
 
 .line1,
 .line2 {
-  margin-left: 13px;
+  margin-left: 10px;
   width: 4px;
   height: 22px;
   background-color: rgb(51, 51, 51);
@@ -60,13 +61,12 @@
   display: none;
 }
 
+
 @media only screen and (max-width: 700px) {
-  .navbar {
-    height: 12vh;
-  }
 
   .navlinks {
-    display: none;
+    /* height: 50vh; */
+    /* display: none; */
   }
 
   .themetoggle{
@@ -75,13 +75,10 @@
 
   .mobile-nav {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
   }
 
   .navigationitems {
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .themetoggle-mobile {
