@@ -36,7 +36,7 @@
   position: absolute;
   display: none;
   width:3em;
-    top: 3.3vh;
+    top: calc(3vh + 1.4em);
     right: 3em;
 }
 
@@ -52,10 +52,11 @@
 .line2 {
   margin-left: 10px;
   width: 4px;
-  height: 22px;
+  height: 1.8em;
   background-color: rgb(51, 51, 51);
   transform: skew(20deg);
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .themetoggle-mobile {
@@ -65,16 +66,18 @@
 
 @media only screen and (max-width: 700px) {
 
-  .navbar{
-    margin-top: 5px;
-    height: fit-content;
-  }
   .navlinks {
     /* height: 50vh; */
-    /* display: none; */
+    display: none;
     width: 100%;
     margin: 1em 0;
     flex-direction: column;
+    height: 25vh;
+    justify-content: space-between;
+  }
+
+  .navlinks.active{
+    display: flex;
   }
 
   .themetoggle{
