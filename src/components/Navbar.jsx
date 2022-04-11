@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 
 export default function Navbar() {
 
-  const [navLinks, setnavLinks] = useState(false)
+  const [navLinks , setnavLinks] = useState(false)
   return (
     <>
       <div className='navbar'>
@@ -14,7 +14,7 @@ export default function Navbar() {
 
           <div className="logo">
             <img src={logo} alt="" srcSet="" style={{ "width": "3.2em", "height": "3.2em" }} />
-
+          
           </div>
 
           <div onClick={() => setnavLinks(!navLinks)} className="mobile-nav">
@@ -23,12 +23,12 @@ export default function Navbar() {
           </div>
 
           {
-            navLinks &&
-            <div className="navlinks">
-              <Buttons className="mobile-class" text="Home" />
-              <Buttons className="mobile-class" text="Projects" />
-              <Buttons className="mobile-class" text="Contact me" />
-            </div>
+            navLinks && 
+          <div className="navlinks">
+            <Buttons className = "mobile-class" text="Home" />
+            <Buttons className = "mobile-class" text="Projects" />
+            <Buttons className = "mobile-class" text="Contact me" />
+          </div>
 
           }
 
