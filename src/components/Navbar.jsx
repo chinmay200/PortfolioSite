@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 
 export default function Navbar() {
 
-  const [navLinks , setnavLinks] = useState(false)
+  const [navLinks, setnavLinks] = useState(false)
   return (
     <>
       <div className='navbar'>
@@ -14,19 +14,23 @@ export default function Navbar() {
 
           <div className="logo">
             <img src={logo} alt="" srcSet="" style={{ "width": "3.2em", "height": "3.2em" }} />
-          
+
           </div>
 
-          <div onClick={() => console.log("Clicked")} className="mobile-nav">
+          <div onClick={() => setnavLinks(!navLinks)} className="mobile-nav">
             <div className="line1"></div>
             <div className="line2"></div>
           </div>
 
-          <div className="navlinks">
-            <Buttons className = "mobile-class" text="Home" />
-            <Buttons className = "mobile-class" text="Projects" />
-            <Buttons className = "mobile-class" text="Contact me" />
-          </div>
+          {
+            navLinks &&
+            <div className="navlinks">
+              <Buttons className="mobile-class" text="Home" />
+              <Buttons className="mobile-class" text="Projects" />
+              <Buttons className="mobile-class" text="Contact me" />
+            </div>
+
+          }
 
           <div className="themetoggle">
             <img src={toggle} alt="" srcSet="" style={{ "width": "3em", "height": "3em" }} className="toggle"></img>
