@@ -23,9 +23,9 @@ export default function Navbar() {
           </div>
 
           <div className={`${navLinks ? 'navlinks':'navlinks navlinks-active'}`}>
-            <Buttons className = "mobile-class" text="Home" />
-            <Buttons className = "mobile-class" text="Projects" />
-            <Buttons className = "mobile-class" text="Contact me" />
+            <Buttons text="Home" />
+            <Buttons text="Projects" />
+            <Buttons text="Contact me" />
           </div>
 
           <div className="themetoggle">

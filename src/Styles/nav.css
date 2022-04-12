@@ -68,12 +68,18 @@
   .navlinks {
     width: 100%;
     height: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
     margin: 1em 0;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     overflow: hidden;
+  }
+
+  .navlinks > a{
+    align-self: center;
+    /* margin-left: 1.2em; */
+    width: 90%;
   }
 
   /* THIS CLASS IS FOR TODO ANIMATION LATER */
