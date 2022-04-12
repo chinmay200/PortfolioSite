@@ -34,8 +34,7 @@ export default function Navbar() {
 
 
         </div>
-        <div className="underline" style={{ "width": "80vw"}}></div>
-      </div>
+        <div className={`${navLinks ? 'underline underline-mobile':'underline'}`} style={{ "width": "80vw"}}></div></div>
 
       <div className="themetoggle-mobile">
         <img src={toggle} alt="" srcSet="" style={{ "width": "3em", "height": "3em" }} className="toggle"></img>
