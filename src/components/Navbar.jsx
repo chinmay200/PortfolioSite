@@ -22,15 +22,11 @@ export default function Navbar() {
             <div className="line2"></div>
           </div>
 
-          {
-            navLinks && 
-          <div className="navlinks">
+          <div className={`${navLinks ? 'navlinks':'navlinks navlinks-active'}`}>
             <Buttons className = "mobile-class" text="Home" />
             <Buttons className = "mobile-class" text="Projects" />
             <Buttons className = "mobile-class" text="Contact me" />
           </div>
-
-          }
 
           <div className="themetoggle">
             <img src={toggle} alt="" srcSet="" style={{ "width": "3em", "height": "3em" }} className="toggle"></img>
@@ -38,7 +34,7 @@ export default function Navbar() {
 
 
         </div>
-        <div className="underline" style={{ "width": "80vw" }}></div>
+        <div className="underline" style={{ "width": "80vw"}}></div>
       </div>
 
       <div className="themetoggle-mobile">
