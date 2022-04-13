@@ -7,9 +7,9 @@ function Home() {
             <div className="intro">
                 <div className="greet-name">
                     <div className="greet">
-                        <h1>Hi,
-                            <span>I</span>
-                            'm
+                        <h1>Hi
+                            <span>,I'</span>
+                            m
                         </h1>
                     </div>
                     <div className="name">
