@@ -78,12 +78,9 @@
 
   .navlinks > a{
     align-self: center;
-    /* margin-left: 1.2em; */
     width: 90%;
   }
 
-  /* THIS CLASS IS FOR TODO ANIMATION LATER */
-  
   .navlinks-active{
     height: 30vh;
     display: flex;
