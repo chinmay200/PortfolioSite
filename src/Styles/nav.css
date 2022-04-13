@@ -67,6 +67,7 @@
 
   .navlinks {
     width: 100%;
+    /* min-height: 0; */
     height: 0;
     transition: all 0.5s ease-in;
     margin: 1em 0;
