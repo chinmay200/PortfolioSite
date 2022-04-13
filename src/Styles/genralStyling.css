@@ -8,8 +8,8 @@
 }
 
 .underline{
-    height: 5px;
-    width: 100vw;
+    height: 4px;
+    width: 85vw;
     background-color: rgb(51, 51, 51);
     transition: all 0.5s ease;
 }
