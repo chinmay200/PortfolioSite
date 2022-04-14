@@ -65,16 +65,18 @@
 
 @media only screen and (max-width: 700px) {
 
+
   .navlinks {
     width: 100%;
     /* min-height: 0; */
     height: 0;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     margin: 1em 0;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
     overflow: hidden;
+    position: relative;
   }
 
   .navlinks > a{

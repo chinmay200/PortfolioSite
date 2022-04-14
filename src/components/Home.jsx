@@ -13,7 +13,7 @@ function Home() {
                         </h1>
                     </div>
                     <div className="name">
-                        <h2>Chinmay</h2>
+                        <h2>Ch<span>i</span>nmay</h2>
                     </div>
                     <div className="brief">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id numquam ab ipsum quis. Cumque quos placeat beatae alias incidunt similique totam explicabo, qui eum ipsa delectus deleniti unde veritatis quisquam.</p>

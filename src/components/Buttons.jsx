@@ -1,10 +1,13 @@
 import "../Styles/button.css";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-export default function Buttons({ text }) {
+export default function Buttons({ text , p }) {
   return (
-    <a href="#" className="btn">
+    <NavLink to = {p}>
+      <div className="btn">
       {text}
-    </a>
+    </div>
+    </NavLink>
   );
 }

@@ -11,7 +11,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .intro{
-    width: 80vw;
+    /* width: 80vw; */
+    width: 50%;
     min-height: 67vh;
     display: flex;
     justify-content: space-evenly;
@@ -23,7 +24,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 3.4em;
 }
 
-.greet > h1 > span{
+span{
     background: linear-gradient(180deg , #00dbde , #fc00ff);
     -webkit-background-clip: text;
     /* background-clip: text; */
