@@ -3,13 +3,13 @@ import '../Styles/home.css'
 
 function Home() {
     return (
-        <div className='heropage'>
+        <div className='page'>
             <div className="intro">
                 <div className="greet-name">
                     <div className="greet">
                         <h1>Hi
-                            <span>,I'</span>
-                            m
+                            <span className='animate__bounce'>,</span>
+                            I<span className='animate__bounce'>'</span>m
                         </h1>
                     </div>
                     <div className="name">

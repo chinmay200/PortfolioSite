@@ -26,7 +26,7 @@ export default function Navbar() {
             <div className="line2"></div>
           </div>
 
-          <nav className={`${navLinks ? 'navlinks' : 'navlinks navlinks-active'}`}>
+          <nav className={`${navLinks ? 'navlinks  navlinks-active' : 'navlinks'}`}>
               <Buttons p = "/" text="Home" />
 
               <Buttons p = "/project" text="Projects" />
