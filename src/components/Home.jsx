@@ -8,7 +8,7 @@ function Home() {
                 <div className="greet-name">
                     <div className="greet">
                         <h1>Hi
-                            <span className='animate__bounce'>,</span>
+                            <span >,</span>
                             I<span >'</span>m
                         </h1>
                     </div>
