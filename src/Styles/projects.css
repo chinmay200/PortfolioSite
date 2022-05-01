@@ -1,7 +1,9 @@
 .projects{
     height: 80vh;
+    width: 70%;
+
 }
 
-.head > h1{
-    font-size: 2em;
+.head h1{
+    font-size: 3.2em;
 }

@@ -24,6 +24,37 @@ function Projects() {
                 My project<span>s</span> 
               </h1>
             </div>
+            <div className="container">
+              <div className="card">
+                <div className="circle">
+                  <h2>01</h2>
+                </div>
+                <div className="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
+                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="circle">
+                  <h2>01</h2>
+                </div>
+                <div className="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
+                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="circle">
+                  <h2>01</h2>
+                </div>
+                <div className="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
+                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     }
