@@ -27,31 +27,35 @@ function Projects() {
             <div className="container">
               <div className="card">
                 <div className="circle">
-                  <h2>01</h2>
+                  <h2>Simple Wheather</h2>
+                  <h1>#1</h1>
                 </div>
                 <div className="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
-                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                  <a className='hyperbtn' href="https://github.com/chinmay200/SimpleWheather" target={"_blank"} rel="noreferrer">Project Link</a>
+
                 </div>
               </div>
 
               <div className="card">
                 <div className="circle">
-                  <h2>01</h2>
+                  <h2>Rock-Paper-Sci</h2>
+                  <h1>#2</h1>
                 </div>
                 <div className="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
-                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                  <a className='hyperbtn' href="https://github.com/chinmay200/Rock-Paper-Scissors" target={"_blank"} rel="noreferrer">Project Link</a>
                 </div>
               </div>
 
               <div className="card">
                 <div className="circle">
-                  <h2>01</h2>
+                  <h2>StackOverflow-Clone</h2>
+                  <h1>#3</h1>
                 </div>
                 <div className="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolore minus ut eligendi nesciunt tempora recusandae reprehenderit. Corporis, ullam saepe.</p>
-                  <a href="https://github.com/chinmay200" target={"_blank"}>Project Link</a>
+                  <a className='hyperbtn' href="https://github.com/chinmay200/Stackoverflown-Clone" target={"_blank"} rel="noreferrer">Project Link</a>
                 </div>
               </div>
             </div>
