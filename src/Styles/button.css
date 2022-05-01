@@ -37,10 +37,10 @@
 
 .btn:hover::after{
     border: 3px solid #181818;
-    transform: translate(-2px , -3px);
+    transform: translate(-3px , -3px);
 }
 
 .btn:hover::before{
-    transform: translate(2px , 3px);
+    transform: translate(3px , 3px);
 }
 
