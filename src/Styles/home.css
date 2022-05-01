@@ -6,11 +6,10 @@ h1,h2,h3,h4,h5,h6{
 .intro{
     /* width: 80vw; */
     width: 50%;
-    min-height: 67vh;
+    height: 80vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2em;
 }
 
 .greet > h1{
@@ -20,11 +19,17 @@ h1,h2,h3,h4,h5,h6{
 span{
     background: linear-gradient(220deg , #00dbde , #fc00ff);
     -webkit-background-clip: text;
-    /* background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
 
 .name > h2{
     font-size: 4em;
+}
+
+@media only screen and (max-width: 700px) {
+    .intro{
+        min-height: 70vh;
+        height: fit-content;
+    }
 }

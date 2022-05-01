@@ -3,7 +3,7 @@ import logo from '../Styles/owl.png'
 import toggle from '../Styles/night.gif'
 import Buttons from './Buttons';
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
