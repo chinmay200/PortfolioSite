@@ -19,10 +19,9 @@
 }
 
 .container .card{
-
     position: relative;
-    width: 19vw;
-    height: 55vh;
+    width: 300px;
+    height: 420px;
     background: #fff;
     margin:0 20px;
     border-radius: 20px;
@@ -55,7 +54,7 @@
     position: absolute;
     bottom: 50px;
     text-align: center;
-    margin: 0 auto;
+
 }
 
 .container .card:nth-child(1) .circle{
@@ -81,6 +80,18 @@
     opacity: 1;
 }
 
-.container .card .content a{
 
+.container .card .content p{
+    margin-bottom: 20px;
+}
+
+.hyperbtn{
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid #232323;
+    transition: 1s;
+}
+
+.hyperbtn:hover{
+    border: 3px solid #f60000;
 }
