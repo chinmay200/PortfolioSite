@@ -3,14 +3,13 @@
     width: 70%;
 
 }
-
 .head h1{
     font-size: 3.2em;
 }
 
 .container{
     position: relative;
-    width:70vw;
+    
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -60,18 +59,45 @@
 
 }
 
+/* CARDS COLORS CSS */
+
 .container .card:nth-child(1) .circle{
     background-color: #FFC83A;
 }
 .container .card:nth-child(2) .circle{
-    background-color: #00b9bc;
+    background-color: #fc26a3;
 }
 .container .card:nth-child(3) .circle{
     background-color: #8336fe;
 }
 
-.container:hover .card{
 
+.container .card .content p{
+    margin-bottom: 20px;
+}
+
+.hyperbtn{
+    color: #232323;
+    padding: 10px;
+    border: 3px solid #232323;
+    transition: 1s;
+}
+
+/* HOVER CSS ELEMENTS */
+
+.container .card:hover .hyperbtn{
+    color: #fff;
+    padding: 10px;
+    border: 3px solid #eeeeee;
+    transition: 1s;
+}
+
+.container .card:hover h2{
+    padding-top: 50px;
+    color: #fff;
+}
+
+.container:hover .card{
     filter:blur(0.8px);
     transform: scale(1);
     opacity: 0.8;
@@ -94,27 +120,8 @@
     clip-path: circle(500px at center 0);
     text-align: center;
 }
-
-
-.container .card .content p{
-    margin-bottom: 20px;
-}
-
-.hyperbtn{
-    color: #232323;
-    padding: 10px;
-    border: 3px solid #232323;
-    transition: 1s;
-}
-
-.container .card:hover .hyperbtn{
-    color: #fff;
-    padding: 10px;
-    border: 3px solid #eeeeee;
-    transition: 1s;
-}
-
-.container .card:hover h2{
-    padding-top: 50px;
-    color: #fff;
+@media only screen and (max-width: 750px) {
+    .container .card{
+        margin-top: 20px;
+    }
 }
