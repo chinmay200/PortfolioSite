@@ -1,0 +1,57 @@
+.card .content p{
+    margin-bottom: 20px;
+}
+
+.hyperbtn{
+    color: #232323;
+    padding: 10px;
+    border: 3px solid #232323;
+    transition: 1s;
+}
+
+.card:hover .hyperbtn{
+    color: #fff;
+    padding: 10px;
+    border: 3px solid #eeeeee;
+    transition: 1s;
+}
+
+.card:hover h2{
+    padding-top: 30px;
+    color: #fff;
+}
+
+
+
+.card:hover{
+    filter :blur(0px);
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.card:hover .content p{
+    color: #fff;
+}
+
+.card h2{
+    padding-top: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card h1{
+    margin: 20px auto;
+    color: #fff;
+    font-size: 3.2em;
+}
+
+.content a img{
+    width:30px;
+
+}
+
+@media only screen and (max-width: 750px) {
+    .container .card{
+        margin-top: 20px;
+    }
+}

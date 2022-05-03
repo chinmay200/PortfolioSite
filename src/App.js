@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import './Styles/genralStyling.css'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/project' element = {<Projects/>}>
         </Route>
       </Routes>
+      <Footer/>
     </>
   );
 }

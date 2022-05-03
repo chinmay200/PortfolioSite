@@ -1,0 +1,7 @@
+.container{
+    width: 100vw;
+    height: 10vh;
+    background: url(bgdown.svg);
+    background-position: top,bottom;
+    background-repeat: no-repeat;
+}
