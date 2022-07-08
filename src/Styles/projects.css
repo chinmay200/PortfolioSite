@@ -1,87 +1,69 @@
-.projects{
-    height: 80vh;
-    width: 70%;
-
-}
-.head h1{
-    font-size: 3.2em;
+:root{
+    --black:#212529
 }
 
-.container{
-    position: relative;
-    
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+.projects {
+  height: 80vh;
+  width: 70%;
+}
+.head h1 {
+  font-size: 3.2em;
 }
 
-.container .card{
-    position: relative;
-    width: 300px;
-    height: 420px;
-    background: #fff;
-    margin:0 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
-    transition: 0.5s;
+.container {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-.container .card .circle{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: rgb(24, 24, 24);
-    clip-path: circle(180px at center 0);
-    text-align: center;
-    transition: 0.5s;
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  border: solid 3px var(--black);
+  overflow: hidden;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
 
-.container .card .content{
-    position: absolute;
-    padding: 0 15px;
-    bottom: 50px;
-    text-align: center;
-
+.container .card .shape {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  clip-path: polygon(0 0, 100% 0, 100% 25%, 0% 45%);
+  text-align: center;
+  transition: 0.5s;
 }
 
-/* CARDS COLORS CSS */
-
-.container .card:nth-child(1) .circle{
-    background-color: #FFC83A;
+.container .card .content {
+  position: absolute;
+  padding: 0 15px;
+  bottom: 50px;
+  text-align: center;
 }
-.container .card:nth-child(2) .circle{
-    background-color: #00b9bc;
-}
-.container .card:nth-child(3) .circle{
-    background-color: #8336fe;
-}
-
 
 /* HOVER CSS ELEMENTS */
 
-.container:hover .card{
-    filter:blur(0.8px);
-    transform: scale(1);
-    opacity: 0.8;
+.container:hover .card {
+  transform: scale(1);
+  /* opacity: 0.8; */
 }
 
+.container .card:hover {
 
-
-.container .card:hover{
-    filter :blur(0px);
-    transform: scale(1.05);
-    opacity: 1;
+  transform: scale(1.02);
+  opacity: 1;
 }
 
-.container .card:hover .circle{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #1c1c1cdb;
-    clip-path: circle(500px at center 0);
-    text-align: center;
+.container .card:hover .shape {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  text-align: center;
 }

@@ -5,7 +5,7 @@ import Card from './Card';
 
 function Projects() {
 
-  const height = 80;
+  const height = 75;
   const [loader, setLoader] = useState(false);
 
   const projects = [

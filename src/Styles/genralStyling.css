@@ -5,15 +5,17 @@
     box-sizing: border-box;
     outline: none;
     user-select: none;
-    /* overflow: hidden; */
 }
 
 body{
   font-family: 'Space Grotesk', sans-serif;
   min-height: 100vh;
-  background-image: url(bgup.svg);
-    background-position: top,bottom;
+  /* background-image: url(bgup.svg); */
+    background-position: top;
     background-repeat: no-repeat;
+    background-image: url(bgup.svg),url(bgdown.svg); 
+    background-position: top,bottom;
+    overflow: hidden;
 }
 
 .underline{
@@ -31,6 +33,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 75vh;
 }
 
 
